@@ -48,6 +48,7 @@ cd AIH
 ```bash
 uv venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 uv pip install -r requirements.txt
 ```
 
