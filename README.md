@@ -40,8 +40,8 @@ workable with proper augmentation and transfer learning
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd brain-tumor-classification
+git clone https://github.com/3of7/AIH
+cd AIH
 ```
 
 2. Create virtual environment and install dependencies:
@@ -51,7 +51,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 uv pip install -r requirements.txt
 ```
 
-3. Update the `DATA_DIR` path in the training script to point to your dataset
+3. Update the `DATA_DIR` path in the brain_tumor_vit.py script to point to your dataset
 
 4. Run training:
 ```bash
