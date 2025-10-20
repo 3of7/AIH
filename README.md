@@ -40,7 +40,7 @@ workable with proper augmentation and transfer learning
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/3of7/AIH
 cd brain-tumor-classification
 ```
 
