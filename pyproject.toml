@@ -1,0 +1,7 @@
+[project]
+name = "slt"
+version = "0.1.0"
+description = "Brain tumor classification using Vision Transformers"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
