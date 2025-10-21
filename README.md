@@ -48,7 +48,9 @@ cd AIH
 ```bash
 uv venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+# match the below as per your GPU driver and cuda version by visiting https://pytorch.org/get-started/locally/
 uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# install the remaining dependency modules 
 uv pip install -r requirements.txt
 ```
 
